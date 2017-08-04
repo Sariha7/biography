@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sariha McIntyre</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="contact.js"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="page-home">
+  <header class="header">
+    <div class="header-title">
+      <h1>Sariha McIntyre</h1>
+    </div>
+      <nav class="header-menu">
+        <ul class="menu-items">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="biography.html">Biography</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="codepen.html">CodePen</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+  </header>
+<div class="contact-information">
+  <form action="#" id="form-id" method="POST" name="contact">
+  <fieldset>
+
+    <h1 class="contact-heading">Contact Information</h1>
+    <p class="contact-description">Leave your contact infromation and write a message with any questions or comments you have. Would love to hear from you! </p>
+
+    <div class="input-fields">
+      <div>
+        <label for="firstname">Firstname:</label>
+        <input id="firstname" type="text" name="firstname">
+      </div>
+      <div>
+        <label for="lastname">Lastname:</label>
+        <input id="lastname" type="text" name="lastname">
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input id="email" type="email" name="email">
+      </div>
+      <div>
+        <label for="phone">Phone:</label>
+        <input id="phone" type="text" name="phone">
+      </div>
+      <h2 class="comments-heading">Comments and Questions</h2>
+       <textarea id="comments" name="comments" rows= "10" cols="50"></textarea>
+   
+<!--       <input type="submit" value="Submit" id="submit" onclick="return addContact()">
+ -->
+        <input type="submit" value="Submit" id="submit">
+    </div>
+  </fieldset>
+    </form>
+  </div>
+  <script src="contact.js"></script>
+</body>
+</html>
